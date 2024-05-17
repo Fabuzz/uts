@@ -11,7 +11,7 @@ if (hapusdata($conn, $id) > 0) {
 
 if ($conn) {
     header("Refresh: 0.5; url= /buku.php");
-    echo "<script>alert('Hapus data produk Berhasil');</script>";
+    echo "<script>alert('Hapus data buku Berhasil');</script>";
 } else {
     echo "<script>alert('Gagal menghapus data buku');</script>";
 }
